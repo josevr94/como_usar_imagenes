@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MEDIA_URL = '/media/' #estoy hay que agregar para poder trabajar con imagenes
+MEDIA_ROOT = BASE_DIR / 'media' #esto tambien hay q agregarlo 
 
 # Application definition
 
